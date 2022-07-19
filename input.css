@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    /* background-image: linear-gradient(rgb(222, 187, 246), hsl(0, 0%, 98%));
+    background-repeat: no-repeat; */
+    background-color: rgb(222, 187, 246);
+}
+
+body {
+    font-family: 'Mukta', sans-serif;
+}
