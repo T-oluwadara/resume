@@ -2,12 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    /* background-image: linear-gradient(rgb(222, 187, 246), hsl(0, 0%, 98%));
-    background-repeat: no-repeat; */
-    background-color: rgb(222, 187, 246);
-}
 
 body {
+    background-image: linear-gradient(hsl(144, 38%, 76%), hsl(0, 0%, 98%));
+    background-repeat: no-repeat;
     font-family: 'Mukta', sans-serif;
+}
+
+.page-icons {
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(39deg) brightness(101%) contrast(101%);
+}
+
+.pg-icon:hover,
+.page-icons:hover {
+    filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(39deg) brightness(0%) contrast(101%);
 }
